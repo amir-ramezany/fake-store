@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    src: url("../public/Roboto-LightItalic.ttf");
+  }
+  html {
+    font-family: "Roboto";
+  }
+}
